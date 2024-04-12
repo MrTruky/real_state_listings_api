@@ -89,7 +89,7 @@ The server will be running at http://localhost:9000 by default.
 - Response: An array of all listings with HTTP status code 200 (OK)
 - Example:
   ```bash
-  curl http://localhost:3000/api/v1/listings
+  curl http://localhost:9000/api/v1/listings
   ```
 
 ### Delete a listing
@@ -99,7 +99,7 @@ The server will be running at http://localhost:9000 by default.
 - Response: The ID of the deleted listing with HTTP status code 200 (OK)
 - Example:
   ```bash
-  curl -X DELETE http://localhost:3000/api/v1/listings/1
+  curl -X DELETE http://localhost:9000/api/v1/listings/1
   ```
 
 ## Testing
